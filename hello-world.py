@@ -35,7 +35,7 @@ def print_message():
     """
     Prints "Hello World" four times;
     Content is random each time with one value
-    selected from each of the three lists
+    selected from each of the three lists.
     """
     x = HelloWorld()
 
@@ -45,4 +45,7 @@ def print_message():
         x.message_world(random.randint(min(x.index), max(x.index)))
         print("#" + str(i + 1) + " " + x.hello + x.space + x.world)
 
-print_message()
+
+if __name__ == "__main__":
+    print(print_message.__doc__)
+    print_message()
