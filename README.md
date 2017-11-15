@@ -2,7 +2,9 @@
 
 ## Overview
 #### Summary
-Repository contains a single python (*.py) file which prints "Hello World" via an unnecessarily lengthy/complex class and functions.
+Repository contains a python (*.py) file which prints "Hello World" via an unnecessarily lengthy/complex class and functions.
+
+Also included for visual consumption is an HTML (*.html) file with Python syntax highlighting; created via [Hi Lite Me](http://hilite.me).
 
 #### Sample Output
    
@@ -25,6 +27,10 @@ Repository contains a single python (*.py) file which prints "Hello World" via a
 
 ## Version History
 #### Hello World
+###### 1.2.111417
+- ***Cosmetic release***
+- Added an HTML file with Python syntax highlighting
+
 ###### 1.1.102517
 - ***Cosmetic release***
 - Minor README improvements
